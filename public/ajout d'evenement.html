@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter un Événement</title>
+    <link rel="stylesheet" href="/assets/ajout d'evenement.css">
+</head>
+<body>
+    <header>
+        <button class="back-button">← Retour</button>
+    </header>
+    <main>
+        <form class="event-form">
+            <div class="image-placeholder">
+                <img src="placeholder.png" alt="Ajouter une image" />
+                <button type="button">Ajouter une image</button>
+            </div>
+            <input type="text" placeholder="Nom de l'événement" />
+            <div class="date-time">
+                <input type="date" placeholder="Date" />
+                <input type="time" placeholder="Heure" />
+            </div>
+            <input type="text" placeholder="Lieu de l'événement" />
+            <input type="number" placeholder="Nombre de participants" />
+            <select>
+                <option value="" disabled selected>Type d'événement</option>
+                <option value="Conférence">Conférence</option>
+                <option value="Atelier">Atelier</option>
+                <option value="Webinaire">Webinaire</option>
+            </select>
+            <div class="price-time">
+                <input type="number" placeholder="Prix" />
+                <input type="time" placeholder="Heure" />
+            </div>
+            <textarea placeholder="Description"></textarea>
+            <button type="submit">Ajouter l'événement</button>
+        </form>
+    </main>
+</body>
+</html>

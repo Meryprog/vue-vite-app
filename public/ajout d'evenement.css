@@ -1,0 +1,88 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5cc; /* Couleur de fond */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 10px;
+    background: none;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+}
+
+/* Formulaire */
+.event-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image-placeholder img {
+    width: 100px;
+    height: 100px;
+    background-color: #eaeaea;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.image-placeholder button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Champs du formulaire */
+input, select, textarea, button {
+    width: 90%;
+    max-width: 400px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.date-time, .price-time {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.date-time input, .price-time input {
+    flex: 1;
+}
